@@ -28,7 +28,7 @@
 {% note tip %}
 
 Можно заполнить поле ИНН и по кнопке поиска («лупа») данные по всем полям будут предзаполнены из Единого государственного реестра юридических лиц.
-![screenshot_4_switch](../_images/_screen_step_4_switch.png){width=100}
+![screenshot_4_switch](_images/_screen_step_4_switch.png){width=100}
 
 {% endnote %}
 
