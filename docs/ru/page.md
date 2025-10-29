@@ -2,11 +2,11 @@
 
 1. Откройте раздел «Справочники» → «Контрагенты» и нажмите «Создать контрагента» в правом верхнем углу
 
-![screenshot_1](_images/_screen_1.png){.center width=1200}
+![screenshot_1](_images/_screen_1.png){.center width=800}
 
 2. В форме «Пользователь» введите электронную почту и нажмите «Продолжить»
 
-![screenshot_2](_images/_screen_2.png){.center width=1200}
+![screenshot_2](_images/_screen_2.png){.center width=800}
 
 {% note info %}
 
@@ -17,51 +17,51 @@
 3. Далее возможно 2 варианта:
     * Если пользователь новый, откроется форма для заполнения данных. Заполните все поля и нажмите «Создать пользователя»
     
-    ![screenshot_3](_images/_screen_3.png){.center width=1200}
+    ![screenshot_3](_images/_screen_3.png){.center width=800}
     
     * Если пользователь уже есть в системе, появится форма с предложением связать существующую запись и создаваемого контрагента. Нажмите «Продолжить»
     
-    ![screenshot_4](_images/_screen_4.png){.center width=1200}
+    ![screenshot_4](_images/_screen_4.png){.center width=800}
 
 Информация вносимая в систему по контрагенту отличается для юридического лица, ИП и самозанятого/физического лица.
 
 4. Для **юридического лица** данные можно заполнить автоматически. Введите ИНН и нажмите на значок лупы. Система подгрузит все актуальные данные из ЕГРЮЛ.
 
-![screenshot_5](_images/_screen_5.png){.center width=1200}
+![screenshot_5](_images/_screen_5.png){.center width=800}
 
 {% note warning %}
 
 **Только при автоматическом заполнении полей по ИНН** в карточку контрагента подтянутся данные о видах деятельности.  
 
-![screenshot_6](_images/_screen_6.png){.center width=1200}
+![screenshot_6](_images/_screen_6.png){.center width=800}
 
 {% endnote %}
 
 5. Для **ИП** данные также можно заполнить автоматически по ИНН:
 
-![screenshot_7](_images/_screen_7.png){.center width=1200}
+![screenshot_7](_images/_screen_7.png){.center width=800}
 
 6. Для **физического лица и самозанятого** поля заполняются вручную:
 
-![screenshot_8](_images/_screen_8.png){.center width=1200}
+![screenshot_8](_images/_screen_8.png){.center width=800}
 
 7. Для контрагента можно добавить пространства.
    Тип пространства определен заранее и выбирается из выпадающего списка.
    
-![screenshot_9](_images/_screen_9.png){.center width=1200}
+![screenshot_9](_images/_screen_9.png){.center width=800}
 
 Количество пространств на одного контрагента не ограничено.
 
-![screenshot_11](_images/_screen_11.png){.center width=1200}
+![screenshot_11](_images/_screen_11.png){.center width=800}
 
 8. Последний шаг при создании контрагента — добавление документов. Загружать документы можно только в формате .pdf.
 
-![screenshot_12](_images/_screen_12.png){.center width=1200}
+![screenshot_12](_images/_screen_12.png){.center width=800}
 
 Если все прошло успешно, система отправит на почту контрагента логин и пароль. 
 Просмотреть карточку созданного контрагента можно по кнопке «Перейти к контрагенту». 
 
-![screenshot_13](_images/_screen_13.png){.center width=1200}
+![screenshot_13](_images/_screen_13.png){.center width=800}
 
 
 
