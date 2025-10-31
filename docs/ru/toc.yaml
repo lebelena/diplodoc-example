@@ -5,5 +5,3 @@ items:
     href: about.md
   - name: Создание контрагента
     href: how_to_counterparty.md
-  - name: Работа с договором
-    href: how_to_doc_deal.md
