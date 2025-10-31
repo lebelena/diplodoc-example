@@ -52,7 +52,7 @@
 
 **Только при автоматическом заполнении полей по ИНН** в карточку контрагента добавятся данные о видах деятельности.
 
-![screenshot_6](_images/_screen_6.png){.center width=600}
+![screenshot_6](_images/_screen_6.png){.center width=400}
 
 {% endnote %}
 
