@@ -1,0 +1,1 @@
+window.__DATA__.data.toc = {"title":"Пример содержания подраздела","href":"ru/sub-section/index.html","items":[{"name":"Страница контента в подразделе","href":"ru/sub-section/content.html","id":"6a307a0c-3081-4562-9cae-eca15885cac9"}],"path":"ru/sub-section/toc.yaml","id":"3825fd33-d07d-4aa3-83c2-8a54564a39df"};
