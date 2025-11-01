@@ -16,6 +16,12 @@
 
 ![gif_1](_images/_gif_1.gif){width=1200}
 
+<figure markdown="span">
+  ![Изображение](../img/success.png)
+  ![gif_1](_images/_gif_1.gif){width=1200}
+  <figcaption>Создание контрагента</figcaption>
+</figure>
+
 <div align="center">
   <img src="./_images/_gif_1.gif" alt="Команда «Создать контрагента»" width="600">
   <p><em>Рис. 1. Создание контрагента</em></p>
