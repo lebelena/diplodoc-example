@@ -17,7 +17,6 @@
 ![gif_1](_images/_gif_1.gif){width=1200}
 
 <figure markdown="span">
-  ![Изображение](../img/success.png)
   ![gif_1](_images/_gif_1.gif){width=1200}
   <figcaption>Создание контрагента</figcaption>
 </figure>
