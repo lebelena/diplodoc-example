@@ -1,12 +1,10 @@
 name: Release
-
 on:
   workflow_dispatch:
   pull_request:
     types: [closed]
-    branches:    
+    branches:
       - main
-
 jobs:
   check-env:
     runs-on: ubuntu-latest
@@ -47,6 +45,32 @@ jobs:
     needs: upload
     runs-on: ubuntu-latest
     steps:
+      - name: Debug API call
+        run: |
+          JSON_BODY=$(jq -n --arg rev "${{ github.sha }}" \
+                          --arg ver "" \
+                          --arg proj "${{ vars.DIPLODOC_STORAGE_BUCKET }}" \
+                          --arg akid "${{ secrets.DIPLODOC_ACCESS_KEY_ID }}" \
+                          --arg sak "${{ secrets.DIPLODOC_SECRET_ACCESS_KEY }}" \
+                          '{
+                            revision: $rev,
+                            version: $ver,
+                            project: $proj,
+                            accessKeyId: $akid,
+                            secretAccessKey: $sak
+                          }')
+          echo "Request body: $JSON_BODY"
+          RESPONSE=$(curl \
+            --header "Content-Type: application/json" \
+            --silent \
+            --output /dev/stderr \
+            --write-out "\nHTTP_CODE:%{http_code}\n" \
+            --data-binary "$JSON_BODY" \
+            https://viewer.diplodoc.com/_/api/head 2>&1)
+          HTTP_CODE=$(echo "$RESPONSE" | grep "HTTP_CODE:" | cut -d: -f2)
+          RESPONSE_BODY=$(echo "$RESPONSE" | sed '/HTTP_CODE:/d')
+          echo "HTTP Code: $HTTP_CODE"
+          echo "Response Body: $RESPONSE_BODY"
       - name: Release
         uses: diplodoc-platform/docs-release-action@v2
         with:
