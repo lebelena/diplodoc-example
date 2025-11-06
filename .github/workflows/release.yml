@@ -45,9 +45,9 @@ jobs:
     needs: upload
     runs-on: ubuntu-latest
     steps:
-      - name: Manual Release (with debug)
+      - name: Manual Release (full debug)
         run: |
-          echo "=== [Debug] Request Body ==="
+          # Формируем JSON-тело запроса
           JSON_BODY=$(jq -n \
             --arg rev "${{ github.sha }}" \
             --arg ver "" \
@@ -61,37 +61,33 @@ jobs:
               accessKeyId: $akid,
               secretAccessKey: $sak
             }')
+
+          echo "=== [Debug] Request Body ==="
           echo "$JSON_BODY"
 
           echo "=== [Debug] Curl Command ==="
-          echo "curl -k -v -X POST \
-            -H 'Content-Type: application/json' \
-            -d '$JSON_BODY' \
-            https://viewer.diplodoc.com/_/api/head"
+          echo "curl -k -v -X POST -H 'Content-Type: application/json' -d '$JSON_BODY' https://viewer.diplodoc.com/_/api/head"
 
-          echo "=== [Debug] Curl Execution ==="
-          RESPONSE=$(curl -k -v -X POST \
+          echo "=== [Debug] Curl Execution (verbose) ==="
+          # Выполняем запрос с полным логом (-v) и сохраняем вывод
+          curl -k -v -X POST \
             -H "Content-Type: application/json" \
-            --silent \
-            --output RESPONSE_BODY \
-            --write-out "\nHTTP_CODE:%{http_code}\n" \
             -d "$JSON_BODY" \
-            https://viewer.diplodoc.com/_/api/head 2>&1)
+            https://viewer.diplodoc.com/_/api/head > curl.log 2>&1 || true
 
-          HTTP_CODE=$(echo "$RESPONSE" | grep "HTTP_CODE:" | cut -d: -f2)
-          RESPONSE_BODY=$(echo "$RESPONSE" | sed '/HTTP_CODE:/d')
+          # Выводим полный лог
+          echo "=== [Debug] Curl Log ==="
+          cat curl.log
 
-          echo "=== [Debug] Response Code ==="
+          # Проверяем HTTP-код ответа
+          HTTP_CODE=$(grep -oP 'HTTP/\d\.\d \K\d+' curl.log | tail -1)
+          echo "=== [Debug] HTTP Code ==="
           echo "$HTTP_CODE"
 
-          echo "=== [Debug] Response Body ==="
-          cat RESPONSE_BODY
-
-          if [[ "$HTTP_CODE" == "200" ]]; then
-            echo "Release successful!"
-            exit 0
-          else
-            echo "::error::Release failed with code $HTTP_CODE"
-            echo "Response: $RESPONSE_BODY"
+          # Если код не 200 — завершаем с ошибкой
+          if [[ "$HTTP_CODE" != "200" ]]; then
+            echo "::error::Release failed with HTTP code $HTTP_CODE"
             exit 1
+          else
+            echo "Release successful!"
           fi
