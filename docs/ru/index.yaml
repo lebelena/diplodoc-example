@@ -1,6 +1,8 @@
 title: Пользовательская документация
 links:
-  - title: О проекте
+  - title: О платформе
     href: about.md
   - title: Создание контрагента
-    href: how_to_counterparty.md
+    href: how_to_counterparty.md    
+  - title: Создание заказа
+    href: how_to_request.md  
