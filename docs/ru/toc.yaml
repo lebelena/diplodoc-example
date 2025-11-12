@@ -1,7 +1,22 @@
-title: Пользовательская документация 
+title: ПЛАТФОРМА ЦУП 
 href: index.yaml
 items: 
-  - name: О проекте
+  - name: О платформе
     href: about.md
-  - name: Создание контрагента
-    href: how_to_counterparty.md
+  - name: Функциональные возможности
+    href: about_func_features.md    
+  - name: Начало работы
+    items:
+      - name: Навигация и структура
+        href: navigation_and_struct.md       
+      - name: Пользователи и роли
+        href: users_and_roles.md
+      - name: C чего начать?
+        href: how_to_start.md    
+  - name: Практические руководства
+    items:
+      - name: Создание контрагента
+        href: how_to_counterparty.md       
+      - name: Создание заказа
+        href: how_to_request.md            
+
