@@ -1,8 +1,30 @@
 title: Пользовательская документация
-links:
-  - title: О платформе
-    href: about.md
-  - title: Создание контрагента
-    href: how_to_counterparty.md    
-  - title: Создание заказа
-    href: how_to_request.md  
+
+::: page-constructor
+blocks:
+  - type: 'card-layout-block'
+    children:
+      - type: 'basic-card'
+        title: 'О платформе'
+        links:
+          - title: 'Описание' 
+            href: about.md
+          - title: 'Функциональные возможности' 
+            href: about_func_features.md 
+
+      - type: 'basic-card'
+        title: 'Начало работы'
+        text: 'Навигация и структура' 
+        href: navigation_and_struct.md
+        text: 'Пользователи и роли' 
+        href: users_and_roles.md
+        text: 'С чего начать?' 
+        href: how_to_start.md 
+
+      - type: 'basic-card'
+        title: 'Практические руководства'
+        text: 'Создание контрагента' 
+        href: how_to_counterparty.md
+        text: 'Создание заказа' 
+        href: how_to_request.md 
+:::
