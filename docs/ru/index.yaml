@@ -1,6 +1,6 @@
 title: Пользовательская документация
 
-::: page-constructor
+##::: page-constructor
 blocks:
   - type: 'card-layout-block'
     children:
@@ -29,4 +29,4 @@ blocks:
             href: how_to_counterparty.md
           - text: 'Создание заказа'
             href: how_to_request.md
-:::
+##:::
