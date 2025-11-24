@@ -1,28 +1,40 @@
 blocks:
+blocks:
+  - type: 'header-block'
+    width: 's'
+    offset: 'default'
+    title: 'Центр Управления Процессами'
+    resetPaddings: true
+    verticalOffset: 'l'
+    description: 'Платформа для управления операционными процессами компании. Простое и удобное решение для больших и маленьких команд.'
+    background:
+      image:
+        desktop: '_images/_cover.png'
+      color: '#1EC3A5'
+      fullWidth: false
+
   - type: 'card-layout-block'
     children:
-      - type: 'basic-card'
-        title: 'О платформе'
-        links:
-          - text: 'Описание'
-            href: about.md
-          - text: 'Функциональные возможности'
-            href: about_func_features.md
-
-      - type: 'basic-card'
-        title: 'Начало работы'
-        links:
-        - text: 'Навигация и структура'
-          href: navigation_and_struct.md
-        - text: 'Пользователи и роли'
-          href: users_and_roles.md
-        - text: 'С чего начать?'
-          href: how_to_start.md
-
-      - type: 'basic-card'
-        title: 'Практические руководства'
-        links:
-          - text: 'Создание контрагента'
-            href: how_to_counterparty.md
-          - text: 'Создание заказа'
-            href: how_to_request.md
+    - type: 'basic-card'
+      title: 'О платформе'
+      links:
+        - text: 'Описание'
+          href: about.md
+        - text: 'Функциональные возможности'
+          href: about_func_features.md
+    - type: 'basic-card'
+      title: 'Начало работы'
+      links:
+      - text: 'Навигация и структура'
+        href: navigation_and_struct.md
+      - text: 'Пользователи и роли'
+        href: users_and_roles.md
+      - text: 'С чего начать?'
+        href: how_to_start.md
+    - type: 'basic-card'
+      title: 'Практические руководства'
+      links:
+      - text: 'Создание контрагента'
+        href: how_to_counterparty.md
+      - text: 'Создание заказа'
+        href: how_to_request.md
