@@ -1,5 +1,4 @@
 blocks:
-blocks:
   - type: 'header-block'
     width: 's'
     offset: 'default'
