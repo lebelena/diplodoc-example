@@ -17,8 +17,9 @@ items:
     items:
       - name: Создание контрагента
         href: how_to_counterparty.md       
+      - name: Создание поручения
+        href: how_to_assignment.md  
       - name: Создание заказа
         href: how_to_request.md
-      - name: Создание поручения
-        href: how_to_assignment.md             
+                 
 
