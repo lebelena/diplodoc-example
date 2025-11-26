@@ -23,7 +23,7 @@ items:
         href: how_to_request.md
       - name: Список заказов
         href: list_of_orders.md 
-      - name: Создание заявки на поступление, списание, инвентаризацию
+      - name: Создание заявки
         href: how_to_bid.md 
             
 
