@@ -60,18 +60,18 @@
 Создание поручения завершается по команде «Создать». 
 Система выведет сообщение об успешном создании поручения с указанием внутреннего номера и возможностью просмотра информации (команда «Перейти к поручению»).
 
-![_screen_final_assign](_images/_screen_final_assign.png){.center width=300}
+![_screen_final_assign](_images/_screen_final_assign.png){.center width=400}
 
 ## Просмотр информации о поручениях
 
 Информацию о поручениях также можно посмотреть при выборе конкретного договора из карточки контрагента: если в рамках договора уже были созданы поручения, будет отдельная вкладка «Поручения».
 
-![_screen_assigndocs](_images/_screen_assigndocs.png){.center width=800}
+![_screen_assigndocs](_images/_screen_assigndocs.png){.center width=600}
 
 Поручения можно просмотреть (команда «Открыть»), отредактировать (команда «Редактировать»), а также перейти к заказам, созданные в рамках этого поручения (команда «Перейти к заказам»).
 
 К заказам можно перейти и при просмотре поручения, а также создать новый заказ.
 
-![_screen_assign_watch_order](_images/_screen_assign_watch_order.png){.center width=800}
+![_screen_assign_watch_order](_images/_screen_assign_watch_order.png){.center width=600}
 
 Создание заказа описано в разделе [«Создание заказа»](/docs/ru/how_to_counterparty.md "Как создать заказ?"). 
