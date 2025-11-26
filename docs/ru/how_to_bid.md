@@ -31,7 +31,7 @@
 
     Когда вся номенклатура добавлена, создание заявки завершается по команде «Создать».
 
-    ![_screen_task_list_nomenc](_images/_screen_task_list_nomenc.png){.center width=1200}
+    ![_screen_task_list_nomenc](_images/_screen_task_list_nomenc.png){.center width=600}
 
 - Списание
 
