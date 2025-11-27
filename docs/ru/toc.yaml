@@ -24,6 +24,6 @@ items:
       - name: (В РАБОТЕ) Список заказов
         href: list_of_orders.md 
       - name: (В РАБОТЕ) Создание заявки
-        href: how_to_bid.md 
+        href: how_to_task.md 
             
 
