@@ -23,7 +23,7 @@ items:
         href: how_to_request.md
       - name: (В РАБОТЕ) Список заказов
         href: list_of_orders.md 
-      - name: (В РАБОТЕ) Создание заявки
+      - name: Создание заявки
         href: how_to_task.md 
             
 
