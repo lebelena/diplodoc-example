@@ -12,24 +12,6 @@
 
 ![_modules_about](_images/_modules_about.png){.center width=1200}
 
-```mermaid
----
-title: Основные модули
----
-flowchart LR
-%% Nodes
-A("**TMS — Transport Management System**
-Сквозное управление перевозками, мониторинг трейсов, API-интеграция с перевозчиками"):::green
-B("**WMS — Warehouse Management System** 
-Управление складскими операциями, повышение точности учёта и скорости обработки материалов, оптимизация работы склада с учётом топологии и маршрутизации операций склада. Структурирование пространств для создания учётной политики «цифровых двойников» POSM"):::cyan
-C("**PLC — POSM Lifecycle Core**
-Центральный микросервис, отвечающий за жизненный цикл «цифрового двойника» POSM-актива"):::blue
-
-%% Styling
-classDef green fill:#E7F6EC,stroke:#34A853,stroke-width:2px;
-classDef blue fill:#E8F4FD,stroke:#1A73E8,stroke-width:2px;
-classDef cyan fill:#E6F7FF,stroke:#00BFFF,stroke-width:2px;
-```
 ## Готовые функциональные блоки продукта
 
 1. Пользователи и контрагенты 
