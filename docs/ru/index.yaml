@@ -18,22 +18,22 @@ blocks:
       title: 'О платформе'
       links:
         - text: 'Описание'
-          href: about.md
+          href: about.html
         - text: 'Функциональные возможности'
-          href: about_func_features.md
+          href: about_func_features.html
     - type: 'basic-card'
       title: 'Начало работы'
       links:
       - text: 'Навигация и структура'
-        href: navigation_and_struct.md
+        href: navigation_and_struct.html
       - text: 'Пользователи и роли'
-        href: users_and_roles.md
+        href: users_and_roles.html
       - text: 'С чего начать?'
-        href: how_to_start.md
+        href: how_to_start.html
     - type: 'basic-card'
       title: 'Практические руководства'
       links:
       - text: 'Создание контрагента'
-        href: how_to_counterparty.md
+        href: how_to_counterparty.html
       - text: 'Создание заказа'
-        href: how_to_request.md
+        href: how_to_request.html
