@@ -1,19 +1,42 @@
-title: Центр Управления Процессами
-links:
-  - title: О платформе
-    href: about.md
-    description: Познакомьтесь с ключевыми блоками и функциональными возможностями платформы
-  - title: Навигация и структура
-    href: navigation_and_struct.md
-    description: Освойтесь в интерфейсе системы
-  - title: Пользователи и роли
-    href: users_and_roles.md
-    description: Изучите права и доступные возможности         
-  - title: С чего начать
-    href: how_to_start.md
-    description: Если не знаете с чего начать работу
-     
+blocks:
+  - type: 'header-block'
+    width: 's'
+    offset: 'default'
+    title: 'Центр Управления Процессами'
+    resetPaddings: true
+    verticalOffset: 'l'
+    description: 'Платформа для управления операционными процессами компании. Простое и удобное решение для больших и маленьких команд.'
+    background:
+      image:
+        desktop: '_images/_cover.png'
+      color: '#1EC3A5'
+      fullWidth: false
 
+  - type: 'card-layout-block'
+    children:
+    - type: 'basic-card'
+      title: 'О платформе'
+      links:
+        - description: 'Описание'
+          href: about
+        - description: 'Функциональные возможности'
+          href: about_func_features
+    - type: 'basic-card'
+      title: 'Начало работы'
+      links:
+      - description: 'Навигация и структура'
+        href: navigation_and_struct
+      - description: 'Пользователи и роли'
+        href: users_and_roles
+      - description: 'С чего начать?'
+        href: how_to_start
+    - type: 'basic-card'
+      title: 'Практические руководства'
+      links:
+      - description: 'Создание контрагента'
+        href: how_to_counterparty
+      - description: 'Создание заказа'
+        href: how_to_request
 
 
 
