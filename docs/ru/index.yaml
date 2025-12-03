@@ -1,17 +1,3 @@
-blocks:
-  - type: 'header-block'
-    width: 's'
-    offset: 'default'
-    title: 'Центр Управления Процессами'
-    resetPaddings: true
-    verticalOffset: 'l'
-    description: 'Платформа для управления операционными процессами компании. Простое и удобное решение для больших и маленьких команд.'
-    background:
-      image:
-        desktop: '_images/_cover.png'
-      color: '#1EC3A5'
-      fullWidth: false
-
 title: Центр Управления Процессами
 links:
   - title: О платформе
@@ -26,6 +12,22 @@ links:
   - title: С чего начать
     href: how_to_start.md
     description: Если не знаете с чего начать работу
+
+blocks:
+  - type: 'header-block'
+    width: 's'
+    offset: 'default'
+    title: 'Центр Управления Процессами'
+    resetPaddings: true
+    verticalOffset: 'l'
+    description: 'Платформа для управления операционными процессами компании. Простое и удобное решение для больших и маленьких команд.'
+    background:
+      image:
+        desktop: '_images/_cover.png'
+      color: '#1EC3A5'
+      fullWidth: false
+
+
 
 
 
