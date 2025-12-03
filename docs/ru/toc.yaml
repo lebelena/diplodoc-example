@@ -2,9 +2,7 @@ title: ПЛАТФОРМА ЦУП
 href: index.yaml
 items: 
   - name: О платформе
-    href: about.md
-  - name: Функциональные возможности
-    href: about_func_features.md    
+    href: about.md 
   - name: Начало работы
     items:
       - name: Навигация и структура
