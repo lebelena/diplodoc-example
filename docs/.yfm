@@ -3,7 +3,4 @@ langs: ['ru', 'en']
 docs-viewer:
   langs: ['ru', 'en']
 
-head: |
-  <meta name="algolia-site-verification" content="AEADDECA17F6A122" />
-
 allowHTML: true
