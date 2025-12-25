@@ -13,13 +13,13 @@ items:
         href: how_to_start.md    
   - name: Практические руководства
     items:
-      - name: Создание контрагента
+      - name: Контрагент
         href: how_to_counterparty.md       
-      - name: Создание поручения
+      - name: Поручение
         href: how_to_assignment.md  
-      - name: Создание заказа
+      - name: Заказ
         href: how_to_request.md
-      - name: Создание заявки
+      - name: Заявка
         href: how_to_task.md 
       - name: Список заказов
         href: list_of_orders.md 
