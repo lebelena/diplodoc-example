@@ -14,17 +14,17 @@
 ![_modules_about](_images/_modules_about.png){.center width=1200}
 
 ::: page-constructor
-    render: true
+render: true
 blocks:
 - type: 'card-layout-block'
-    title: 'Как это работает?'
-    colSizes:
+  title: 'Как это работает?'
+  colSizes:
       all: 12
       md: 4
       sm: 6
-    indent:
+  indent:
       top: sm
-    children:
+  children:
       - type: 'layout-item'
         content:
           title: 'Архитектура'
@@ -55,15 +55,15 @@ blocks:
         fullScreen: true
         border: true
         disableCompress: true
-  - type: 'card-layout-block'
-    title: 'Основные модули'
-    colSizes:
+- type: 'card-layout-block'
+  title: 'Основные модули'
+  colSizes:
       all: 12
       md: 4
       sm: 6
-    indent:
+  indent:
       top: sm
-    children:
+  children:
       - type: 'layout-item'
         content:
           title: 'Transport Integration Core (TIC)'
