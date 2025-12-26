@@ -1,4 +1,4 @@
-title: LogiCore Platform 
+title: LogiCorePlatform 
 href: index.yaml
 items: 
   - name: О платформе
@@ -24,5 +24,4 @@ items:
       - name: Список заказов
         href: list_of_orders.md 
   - name: Глоссарий
-    href: glossary.md             
-
+    href: glossary.md 
