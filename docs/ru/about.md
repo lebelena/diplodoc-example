@@ -82,7 +82,7 @@ blocks:
         fullScreen: true
         border: true
         disableCompress: true
-:::
+::::
 
 ## Готовые функциональные блоки продукта
 
