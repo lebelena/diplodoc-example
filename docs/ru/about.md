@@ -29,9 +29,6 @@ blocks:
         content:
           title: 'Архитектура'
           text: 'Платформа Diplodoc имеет клиент-серверную архитектуру: серверная часть состоит из компонентов на Node.js, которые генерируют и отображают документационные проекты. Такая архитектура обеспечивает надёжность и горизонтальное масштабирование в случае необходимости.  '
-        media:
-          image: 'https://storage.yandexcloud.net/diplodoc-www-assets/pages/index-diplodoc/ddos-index-item-01-01.png'
-          disableCompress: true
         fullScreen: true
         border: true
         disableCompress: true
@@ -39,9 +36,6 @@ blocks:
         content:
           title: 'Интеграция с GitHub'
           text: 'Платформа Diplodoc имеет сквозную интеграцию с GitHub для обеспечения простого и стабильного механизма сборки и развёртывания документационных проектов. GitHub используется как хранилище исходного кода для документов и исполнения пайплайна проекта.'
-        media:
-          image: 'https://storage.yandexcloud.net/diplodoc-www-assets/pages/index-diplodoc/ddos-index-item-01-02.png'
-          disableCompress: true
         fullScreen: true
         border: true
         disableCompress: true
@@ -49,9 +43,6 @@ blocks:
         content:
           title: 'Развёртывание'
           text: 'Компании – пользователи сервиса Diplodoc используют встроенные механизмы выкладки документационного проекта с последующей их индексацией и отслеживанием версий. Документы могут обновляться как в автоматическом, так и в полуавтоматическом режиме с привлечением администратора со стороны пользователя.'
-        media:
-          image: 'https://storage.yandexcloud.net/diplodoc-www-assets/pages/index-diplodoc/ddos-index-item-01-03.png'
-          disableCompress: true
         fullScreen: true
         border: true
         disableCompress: true
