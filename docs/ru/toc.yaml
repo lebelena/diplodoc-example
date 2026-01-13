@@ -23,5 +23,7 @@ items:
         href: how_to_task.md 
       - name: Список заказов
         href: list_of_orders.md 
+      - name: Виды оборудования 
+        href: types_of_equipment.md   
   - name: Глоссарий
     href: glossary.md 
