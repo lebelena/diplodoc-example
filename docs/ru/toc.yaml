@@ -24,6 +24,8 @@ items:
       - name: Список заказов
         href: list_of_orders.md 
       - name: Виды оборудования 
-        href: types_of_equipment.md   
+        href: types_of_equipment.md
+      - name: Пространства 
+        href: how_to_space.md     
   - name: Глоссарий
     href: glossary.md 
