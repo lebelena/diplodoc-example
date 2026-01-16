@@ -12,7 +12,7 @@
 
 ## 1. Заполнение первичной информации
 
-![_screen_request_first_page](_images/_screen_request_first_page.png){.center width=1200}
+![_screen_request_first_page](_images/_screen_request_first_page.png){.center width=600}
 
 ### Шаг 1. Выбор заказчика
 
