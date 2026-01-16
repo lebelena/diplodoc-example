@@ -80,4 +80,4 @@
 
 ![_screen_assign_watch_order](_images/_screen_assign_watch_order.png){.center width=600}
 
-Создание заказа описано в разделе [«Создание заказа»](./how_to_request.md "Как создать заказ?"). 
+Создание заказа описано в разделе [«Заказ»](./how_to_request.md). 
