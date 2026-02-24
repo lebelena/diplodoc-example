@@ -27,5 +27,7 @@ items:
         href: types_of_equipment.md
       - name: Пространства 
         href: how_to_space.md     
+      - name: Номенклатура 
+        href: nomenc.md  
   - name: Глоссарий
     href: glossary.md 
