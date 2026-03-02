@@ -12,9 +12,7 @@ items:
       - name: C чего начать?
         href: how_to_start.md    
   - name: Практические руководства
-    items:
-      - name: Контрагент
-        href: how_to_counterparty.md       
+    items:     
       - name: Поручение
         href: how_to_assignment.md  
       - name: Заказ
@@ -24,10 +22,14 @@ items:
       - name: Список заказов
         href: list_of_orders.md 
       - name: Виды оборудования 
-        href: types_of_equipment.md
-      - name: Пространства 
-        href: how_to_space.md     
-      - name: Номенклатура 
-        href: nomenc.md  
+        href: types_of_equipment.md 
+      - name: Справочники
+        items:
+        - name: Контрагент
+          href: how_to_counterparty.md       
+        - name: Пространства 
+          href: how_to_space.md     
+        - name: Группа номенклатуры 
+          href: nomenc.md  
   - name: Глоссарий
     href: glossary.md 
