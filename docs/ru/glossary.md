@@ -304,6 +304,7 @@
 **Иконка (анг. icon)** – маленький графический значок в интерфейсе, обозначающий команду
   *Упоминания:*
   *— Работа с [группами номенклатуры][5]*
+  *— Справочник [типов оборудования][21]*
 
 **Инициатива клиента** — промежуток времени, за который все задачи по заказу должны быть выполнены. Этот временной отрезок указывается в рамках одноименного события по созданию заказа
 
@@ -312,6 +313,7 @@
 **Карточка задачи/контрагента/поручения по договору** – форма в интерфейсе с информацией о единице соответствующего объекта
   *Упоминания:*
   *— Работа с [поручениями][12]*
+  *— Справочник [типов оборудования][19]*
 
 **Классификация оборудования** – одно из событий в рамках мероприятия «создание заказа», где для оборудования подбирается соответствующий вид оборудования для последующего корректного расчета
 
@@ -328,6 +330,7 @@
 **Модальное окно/форма** – всплывающий элемент интерфейса, который блокирует работу с основной страницей до совершения действия (например, форма создания или редактирования объекта)
   *Упоминания:*
   *— Работа с [поручениями][9]*
+  *— Справочник [типов оборудования][18]*
 
 **Н**
 
@@ -335,6 +338,7 @@
   *Упоминания:*
   *— Работа с [группами номенклатуры][2]*
   *— Работа с [поручениями][10]*
+  *— Справчоник [типов оборудования][20]*
 
 **О**
 
@@ -347,6 +351,8 @@
 **Подпункт меню** – элемент вложенной навигации, расположенный внутри основного пункта меню
 
 **Подсистема** – крупный функциональный блок платформы, объединяющий связанные процессы и инструменты. Список подсистем располагается в боковом меню
+  *Упоминания:*
+  *— Справочник [типов оборудования][17]*
 
 **Поле ввода** – элемент интерфейса для ввода пользователем текстовой или числовой информации
   *Упоминания:*
@@ -976,6 +982,16 @@
 
 [14]: https://lebelena.github.io/diplodoc-example/ru/how_to_assignment.html#:~:text=%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B8%20%D0%BE%20%D0%BF%D0%BE%D1%80%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B8-,%D0%A1%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5,-1.%20%D0%97%D0%B0%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B8
 
-[15]: https://lebelena.github.io/diplodoc-example/ru/types_of_equipment.html#:~:text=%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%87%D0%B0%D0%BD%D0%B8%D0%B5-,%D0%92%D0%B8%D0%B4%20%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F,-%E2%80%94%20%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%2C%20%D0%B3%D0%B4%D0%B5%20%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B8%D1%82%D1%81%D1%8F
+[15]: https://lebelena.github.io/diplodoc-example/ru/types_of_equipment.html#nomenklatura-vida-oborudovaniya:~:text=%D0%B2%20%D0%BE%D0%B4%D0%BD%D1%83%20%D0%B3%D1%80%D1%83%D0%BF%D0%BF%D1%83.-,%D0%92%D0%B8%D0%B4%20%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F,-%E2%80%94%20%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%20%D1%81%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B5%D0%B9
 
-[16]:
+[16]:https://lebelena.github.io/diplodoc-example/ru/types_of_equipment.html#nomenklatura-vida-oborudovaniya:~:text=%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%87%D0%B0%D0%BD%D0%B8%D0%B5-,%D0%A2%D0%B8%D0%BF%20%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F,-%E2%80%94%20%D1%81%D1%83%D1%89%D0%BD%D0%BE%D1%81%D1%82%D1%8C%2C%20%D0%BD%D0%B5%D0%BE%D0%B1%D1%85%D0%BE%D0%B4%D0%B8%D0%BC%D0%B0%D1%8F%20%D0%B4%D0%BB%D1%8F
+
+[17]:https://lebelena.github.io/diplodoc-example/ru/types_of_equipment.html#nomenklatura-vida-oborudovaniya:~:text=%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D1%81%D1%8F%20%D0%B2-,%D0%BF%D0%BE%D0%B4%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B5,-%C2%AB%D0%A1%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8%C2%BB%20%E2%86%92%20%C2%AB%D0%A2%D0%B8%D0%BF%D1%8B%20%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F
+
+[18]: https://lebelena.github.io/diplodoc-example/ru/types_of_equipment.html#nomenklatura-vida-oborudovaniya:~:text=%D0%B2%D1%8B%D0%B1%D1%80%D0%B0%D1%82%D1%8C%20%D0%B5%D0%B3%D0%BE%20%E2%80%94%20%D0%BE%D1%82%D0%BA%D1%80%D0%BE%D0%B5%D1%82%D1%81%D1%8F-,%D1%84%D0%BE%D1%80%D0%BC%D0%B0,-%2C%20%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%89%D0%B0%D1%8F%20%D0%B2%20%D1%81%D0%B5%D0%B1%D0%B5
+
+[19]: https://lebelena.github.io/diplodoc-example/ru/types_of_equipment.html#nomenklatura-vida-oborudovaniya:~:text=%D0%B8%20%D0%BF%D0%BE%D0%BA%D0%B0%D0%B6%D0%B5%D1%82%20%D0%B2%D1%81%D0%B5-,%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B8,-%2C%20%D0%B3%D0%B4%D0%B5%20%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D1%83%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5
+
+[20]: https://lebelena.github.io/diplodoc-example/ru/types_of_equipment.html#nomenklatura-vida-oborudovaniya:~:text=%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8E%20%D0%B8%20%D1%81%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D1%83%D1%8E-,%D0%BD%D0%BE%D0%BC%D0%B5%D0%BD%D0%BA%D0%BB%D0%B0%D1%82%D1%83%D1%80%D1%83,-(2).
+
+[21]: https://lebelena.github.io/diplodoc-example/ru/types_of_equipment.html#nomenklatura-vida-oborudovaniya:~:text=%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D1%8F%20%D0%B5%D1%81%D1%82%D1%8C%203-,%D0%B8%D0%BA%D0%BE%D0%BD%D0%BA%D0%B8,-%D1%81%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B5%D0%B9%20%D0%BE
