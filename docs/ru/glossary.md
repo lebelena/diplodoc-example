@@ -344,6 +344,7 @@
 **Модальное окно/форма** – всплывающий элемент интерфейса, который блокирует работу с основной страницей до совершения действия (например, форма создания или редактирования объекта)
   *Упоминания:*
   *— Работа с [поручениями][9]*
+  *— Работа с [заказами][47]*
   *— Справочник [типов оборудования][18]*
   *— Справочник [групп номенклатур][22]*
 
@@ -1076,7 +1077,7 @@
 
 [41]: https://lebelena.github.io/diplodoc-example/ru/how_to_request.html#zapolnenie-ishodnoj-informacii:~:text=%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D1%80%20%E2%80%94-,%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D0%B3%D0%B5%D0%BD%D1%82,-%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B9%20%D0%B1%D1%83%D0%B4%D0%B5%D1%82%20%D0%BE%D1%82%D0%B2%D0%B5%D1%87%D0%B0%D1%82%D1%8C
 
-[42]: https://lebelena.github.io/diplodoc-example/ru/how_to_request.html#sobytie-6-operacii:~:text=%D1%82%D0%B5%D0%BA%D1%83%D1%89%D0%B5%D0%B3%D0%BE%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D1%8F%20%D1%83%D0%BA%D0%B0%D0%B7%D1%8B%D0%B2%D0%B0%D1%8E%D1%82%D1%81%D1%8F-,%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8,-%D0%B4%D0%BB%D1%8F%20%D1%81%D0%B2%D1%8F%D0%B7%D0%BA%D0%B8%20%C2%AB%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5
+[42]: https://lebelena.github.io/diplodoc-example/ru/how_to_request.html#sobytie-6-operacii:~:text=%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D1%80%20%E2%80%94-,%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D0%B3%D0%B5%D0%BD%D1%82,-%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B9%20%D0%B1%D1%83%D0%B4%D0%B5%D1%82%20%D0%BE%D1%82%D0%B2%D0%B5%D1%87%D0%B0%D1%82%D1%8C
 
 [43]: https://lebelena.github.io/diplodoc-example/ru/how_to_request.html#zapolnenie-ishodnoj-informacii:~:text=%D0%BD%D0%B5%20%D1%83%D0%B4%D0%B0%D0%BB%D0%BE%D1%81%D1%8C%20%E2%80%94%20%D0%B2%D1%80%D1%83%D1%87%D0%BD%D1%83%D1%8E.-,%D0%9F%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%82%D0%B2%D0%BE,-%D1%81%D1%87%D0%B8%D1%82%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D1%81%D0%BE%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%BC%20%D0%B5%D1%81%D0%BB%D0%B8
 
@@ -1085,3 +1086,5 @@
 [45]: https://lebelena.github.io/diplodoc-example/ru/how_to_request.html#zapolnenie-ishodnoj-informacii:~:text=%D0%B8%D0%B7-,%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B8%20%D0%BF%D0%BE%D1%80%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F,-%D0%BF%D0%BE%20%D0%B4%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D1%83%20%E2%80%94%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F
 
 [46]: https://lebelena.github.io/diplodoc-example/ru/how_to_request.html#zapolnenie-ishodnoj-informacii:~:text=%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D0%B4%D0%B5%D1%82%20%D0%BA%20%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D1%8E-,%D1%81%D0%B0%D0%B9%D0%B4%2D%D0%B1%D0%B0%D1%80%D0%B0,-%D1%81%20%D0%BD%D0%B5%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%BC%D0%B8%20%D1%81%D1%83%D0%BC%D0%BC%D0%B0%D1%80%D0%BD%D1%8B%D0%BC%D0%B8
+
+[47]:https://lebelena.github.io/diplodoc-example/ru/how_to_request.html#:~:text=%D0%92%D1%81%D0%B5%D0%B3%D0%BE%20%D0%B1%D1%83%D0%B4%D0%B5%D1%82%207-,%D1%84%D0%BE%D1%80%D0%BC,-%D1%81%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B0%D0%BC%D0%B8.%20%D0%95%D1%81%D0%BB%D0%B8

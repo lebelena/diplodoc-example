@@ -32,7 +32,7 @@
 
 ![_screen_request_first_page](_images/_screen_request_questions.png){.center width=1200}
 
-Всего будет 7 форм с вопросами. Если не получается перейти к следующей форме по команде «Далее», значит что-то из обязательной информации не заполнено. Такие поля будут подсвечены красным.
+Всего будет 7 [форм][23] с вопросами. Если не получается перейти к следующей форме по команде «Далее», значит что-то из обязательной информации не заполнено. Такие поля будут подсвечены красным.
 
 ![_screen_request_first_page](_images/_screen_request_questions_red.png){.center width=1200}
 
@@ -318,3 +318,5 @@
 [21]: https://lebelena.github.io/diplodoc-example/ru/glossary.html#lcp:~:text=%D0%94-,%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%20%D0%93%D0%B0%D0%BD%D1%82%D0%B0,-%E2%80%93%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%20%D0%B2%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8%20%D0%B8
 
 [22]: https://lebelena.github.io/diplodoc-example/ru/glossary.html#:~:text=%D0%A1-,%D0%A1%D0%B0%D0%B9%D0%B4%2D%D0%B1%D0%B0%D1%80,-%E2%80%94%20%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%D0%B0%20%D0%B4%D0%BB%D1%8F
+
+[23]: https://lebelena.github.io/diplodoc-example/ru/glossary.html#:~:text=%D0%9C%D0%BE%D0%B4%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%BE%D0%BA%D0%BD%D0%BE/%D1%84%D0%BE%D1%80%D0%BC%D0%B0
