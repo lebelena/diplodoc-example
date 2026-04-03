@@ -888,6 +888,8 @@
 
 **Выборочная инвентаризация** – инвентаризация только части имущества (например, определенные товарные позиции, основные средства или деньги), а не всех активов компании. Результаты такой проверки оформляются актом МХ-14 и не являются основанием для взаиморасчетов по недостачам
 
+{% list tabs accordion %}
+
 - Пример документальной формы акта МХ-14
 
   **Формат:** документ Word
@@ -939,7 +941,7 @@
   ![_screen_glossary](_images/glossary_inv5_pervyi.png){.center width=1200}
 
   ![_screen_glossary](_images/glossary_inv5_vtoroi.png){.center width=1200}
-  
+
   ![_screen_glossary](_images/glossary_inv5_tretyi.png){.center width=1200}
 
 {% endlist %}
