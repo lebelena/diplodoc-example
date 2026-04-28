@@ -18,9 +18,7 @@ items:
         - name: Поручение
           href: how_to_assignment.md  
         - name: Заказ
-          href: how_to_request.md
-        - name: Список заказов
-          href: list_of_orders.md                
+          href: how_to_request.md              
         - name: Заявка
           href: how_to_task.md 
       - name: Справочники
