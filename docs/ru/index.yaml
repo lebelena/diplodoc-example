@@ -1,18 +1,10 @@
 title: LogiCorePlatform
 description: Пользовательская документация 
 links:
-  - title: О платформе
+  - title: Общая инструкция
     href: about.md
-    description: Познакомьтесь с  функциональными возможностями платформы
-  - title: Навигация и структура
-    href: navigation_and_struct.md
-    description: Освойтесь в интерфейсе системы
-  - title: Пользователи и роли
-    href: users_and_roles.md
-    description: Изучите систему прав доступа и свои возможности         
-  - title: С чего начать
-    href: how_to_start.md
-    description: Быстрый старт, если не знаете с чего начать работу
+    description: Познакомьтесь с  функциональными возможностями мессенджера
+
 
 
 
